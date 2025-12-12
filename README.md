@@ -2,10 +2,6 @@
 
 Generative AI RAG application using Amazon Bedrock, Aurora Postgres Serverless, and Amazon S3 to turn a document corpus into a chat-based knowledge system.
 
-## Overview
-
-This project demonstrates how to build an end-to-end generative AI application on AWS. It ingests documents, stores and indexes them for retrieval, and uses Bedrock-hosted LLMs to answer natural language questions over that content.
-
 ## What This Project Does
 
 - Provisions AWS resources with Terraform (Bedrock access, Aurora Postgres Serverless, S3).
@@ -21,10 +17,6 @@ This project demonstrates how to build an end-to-end generative AI application o
 - Amazon S3  
 - Terraform (IaC)  
 - Python + SQL  
-
-## Outcome
-
-A working intelligent document querying system that showcases how to combine Bedrock LLMs with AWS data services to deliver secure, retrieval-augmented answers over organizational documents.
 
 ## Project Overview
 
@@ -79,3 +71,7 @@ project-root/
 │
 └── README.md
 ```
+
+## Outcome
+
+A working intelligent document querying system that showcases how to combine Bedrock LLMs with AWS data services to deliver secure, retrieval-augmented answers over organizational documents.
